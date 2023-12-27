@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{A6BBB7DE-372F-456D-BB4A-B4C1E3ACE97B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestPublisher", "samples\TestPublisher\TestPublisher.csproj", "{1A215A69-192B-4ACF-8C3A-C2C2A2D231BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TraditionalKafkaConsumer", "samples\TraditionalKafkaConsumer\TraditionalKafkaConsumer.csproj", "{DDE6301A-AC43-49EA-9619-800420723BBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TurbochargedCoreKafkaConsumer", "samples\TurbochargedCoreKafkaConsumer\TurbochargedCoreKafkaConsumer.csproj", "{B97EB408-C158-42E6-B395-6C7F1B9F2218}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TurbochargedCoreKafkaConsumerFailureScenarios", "samples\TurbochargedCoreKafkaConsumerFailureScenarios\TurbochargedCoreKafkaConsumerFailureScenarios.csproj", "{0F2C9B5A-3DE7-40BA-A207-A4E0F45FBBF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TurbochargedLabsKafkaConsumer", "samples\TurbochargedLabsKafkaConsumer\TurbochargedLabsKafkaConsumer.csproj", "{34FF6E1F-3BB2-44E0-825B-824953BCE294}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0E9F6532-EF40-4DD2-A51B-586CEE5240F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YakShaveFx.KafkaClientTurbocharger.Core", "src\YakShaveFx.KafkaClientTurbocharger.Core\YakShaveFx.KafkaClientTurbocharger.Core.csproj", "{66F37B6A-A75E-415C-A7EC-0E739D7D13DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YakShaveFx.KafkaClientTurbocharger.Labs", "src\YakShaveFx.KafkaClientTurbocharger.Labs\YakShaveFx.KafkaClientTurbocharger.Labs.csproj", "{7C9FAF4A-E67B-4E67-B915-8A7A4C53FCD8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "benchmarks", "benchmarks", "{8B2C8920-1E96-48F5-94A3-ABC3522465EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YakShaveFx.KafkaClientTurbocharger.Research.Benchmarks", "benchmarks\YakShaveFx.KafkaClientTurbocharger.Research.Benchmarks\YakShaveFx.KafkaClientTurbocharger.Research.Benchmarks.csproj", "{9F1B6308-91A4-469B-A714-1FA4247FB55E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A215A69-192B-4ACF-8C3A-C2C2A2D231BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A215A69-192B-4ACF-8C3A-C2C2A2D231BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A215A69-192B-4ACF-8C3A-C2C2A2D231BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A215A69-192B-4ACF-8C3A-C2C2A2D231BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDE6301A-AC43-49EA-9619-800420723BBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDE6301A-AC43-49EA-9619-800420723BBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDE6301A-AC43-49EA-9619-800420723BBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDE6301A-AC43-49EA-9619-800420723BBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B97EB408-C158-42E6-B395-6C7F1B9F2218}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B97EB408-C158-42E6-B395-6C7F1B9F2218}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B97EB408-C158-42E6-B395-6C7F1B9F2218}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B97EB408-C158-42E6-B395-6C7F1B9F2218}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F2C9B5A-3DE7-40BA-A207-A4E0F45FBBF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F2C9B5A-3DE7-40BA-A207-A4E0F45FBBF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F2C9B5A-3DE7-40BA-A207-A4E0F45FBBF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F2C9B5A-3DE7-40BA-A207-A4E0F45FBBF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34FF6E1F-3BB2-44E0-825B-824953BCE294}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34FF6E1F-3BB2-44E0-825B-824953BCE294}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34FF6E1F-3BB2-44E0-825B-824953BCE294}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34FF6E1F-3BB2-44E0-825B-824953BCE294}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66F37B6A-A75E-415C-A7EC-0E739D7D13DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66F37B6A-A75E-415C-A7EC-0E739D7D13DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66F37B6A-A75E-415C-A7EC-0E739D7D13DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66F37B6A-A75E-415C-A7EC-0E739D7D13DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C9FAF4A-E67B-4E67-B915-8A7A4C53FCD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C9FAF4A-E67B-4E67-B915-8A7A4C53FCD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C9FAF4A-E67B-4E67-B915-8A7A4C53FCD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C9FAF4A-E67B-4E67-B915-8A7A4C53FCD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F1B6308-91A4-469B-A714-1FA4247FB55E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F1B6308-91A4-469B-A714-1FA4247FB55E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F1B6308-91A4-469B-A714-1FA4247FB55E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F1B6308-91A4-469B-A714-1FA4247FB55E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1A215A69-192B-4ACF-8C3A-C2C2A2D231BA} = {A6BBB7DE-372F-456D-BB4A-B4C1E3ACE97B}
+		{DDE6301A-AC43-49EA-9619-800420723BBE} = {A6BBB7DE-372F-456D-BB4A-B4C1E3ACE97B}
+		{B97EB408-C158-42E6-B395-6C7F1B9F2218} = {A6BBB7DE-372F-456D-BB4A-B4C1E3ACE97B}
+		{0F2C9B5A-3DE7-40BA-A207-A4E0F45FBBF6} = {A6BBB7DE-372F-456D-BB4A-B4C1E3ACE97B}
+		{34FF6E1F-3BB2-44E0-825B-824953BCE294} = {A6BBB7DE-372F-456D-BB4A-B4C1E3ACE97B}
+		{66F37B6A-A75E-415C-A7EC-0E739D7D13DC} = {0E9F6532-EF40-4DD2-A51B-586CEE5240F8}
+		{7C9FAF4A-E67B-4E67-B915-8A7A4C53FCD8} = {0E9F6532-EF40-4DD2-A51B-586CEE5240F8}
+		{9F1B6308-91A4-469B-A714-1FA4247FB55E} = {8B2C8920-1E96-48F5-94A3-ABC3522465EB}
+	EndGlobalSection
+EndGlobal

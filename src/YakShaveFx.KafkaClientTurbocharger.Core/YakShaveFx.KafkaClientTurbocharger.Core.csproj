@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>YakShaveFx.KafkaClientTurbocharger.Core</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Akka" Version="1.5.14" />
+      <PackageReference Include="Confluent.Kafka" Version="2.3.0" />
+      <PackageReference Include="System.IO.Hashing" Version="8.0.0" />
+    </ItemGroup>
+
+</Project>
