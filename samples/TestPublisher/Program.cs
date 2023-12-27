@@ -17,7 +17,7 @@ await CreateTopicAsync(topicName, bootstrapServers);
 
 var possibleKeys = Enumerable.Range(0, 1000).Select(_ => Guid.NewGuid().ToString()).ToArray();
 
-const int numberOfMessagesToPublish = 5000;
+const int numberOfMessagesToPublish = 1000;
 for (var i = 0; i < numberOfMessagesToPublish; i++)
 {
     producer.Produce(

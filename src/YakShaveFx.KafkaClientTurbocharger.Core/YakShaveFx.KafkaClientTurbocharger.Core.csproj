@@ -5,6 +5,7 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <RootNamespace>YakShaveFx.KafkaClientTurbocharger.Core</RootNamespace>
+        <Version>0.0.0-alpha.0.1</Version>
     </PropertyGroup>
 
     <ItemGroup>

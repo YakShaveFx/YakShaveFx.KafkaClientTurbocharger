@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <WarningsAsErrors>nullable</WarningsAsErrors>
+
+        <Authors>João Antunes</Authors>
+        <PackageIcon>yakshavefx-icon.png</PackageIcon>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageTags>kafka</PackageTags>
+        <PackageProjectUrl>https://github.com/YakShaveFx/YakShaveFx.KafkaClientTurbocharger</PackageProjectUrl>
+        <PackageReleaseNotes>https://github.com/YakShaveFx/YakShaveFx.KafkaClientTurbocharger/blob/main/CHANGELOG.md</PackageReleaseNotes>
+        <PublishRepositoryUrl>true</PublishRepositoryUrl>
+        <EmbedUntrackedSources>true</EmbedUntrackedSources>
+        <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All"/>
+    </ItemGroup>
+    
+    <ItemGroup>
+        <None Include="../../assets/yakshavefx-icon.png" Pack="true" PackagePath="/" />
+    </ItemGroup>
+</Project>
