@@ -99,6 +99,15 @@ internal sealed class ClientProxy : ReceiveActor, IWithTimers, ILogReceive
         }
 
         var toCommit = _offsetsToCommit.PopToCommit();
+        
+        /*
+         * TODO - handle possible commit failures due to rebalance
+         * If we try to commit offsets for partitions that are not assigned to this consumer instance,
+         * namely due to a rebalance, the commit will fail with an exception.
+         * We need to handle this case, or restructure our approach, with something that takes care of the issue more cleanly. 
+         * Some info here: https://docs.confluent.io/kafka-clients/dotnet/current/overview.html
+         * - Using the EnableAutoCommit = true, EnableAutoOffsetStore = false plus StoreOffsets method, might be an interesting alternative, for a cleaner approach
+         */
         _consumer.Commit(toCommit);
     }
 
