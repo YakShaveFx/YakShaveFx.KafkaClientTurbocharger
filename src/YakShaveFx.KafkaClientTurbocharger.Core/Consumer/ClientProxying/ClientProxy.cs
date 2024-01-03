@@ -45,7 +45,7 @@ internal sealed class ClientProxy : ReceiveActor, IWithTimers, ILogReceive
     {
         _consumer = _consumerFactory();
         _consumer.Subscribe(_topics);
-        Timers.StartSingleTimer(
+        Timers.StartPeriodicTimer(
             CommitOffsetsTimerKey,
             Commands.ScheduledCommit.Instance,
             ScheduledCommitInterval);
