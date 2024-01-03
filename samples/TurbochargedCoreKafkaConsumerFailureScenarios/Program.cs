@@ -3,7 +3,7 @@ using System.Text;
 using Spectre.Console;
 using YakShaveFx.KafkaClientTurbocharger.Core.Consumer;
 
-const int MessagesToHandle = 5000;
+const int MessagesToHandle = 1000;
 var parallelismStrategy = ParallelismStrategy.PerKey;
 var timeProvider = TimeProvider.System;
 
